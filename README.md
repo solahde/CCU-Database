@@ -1,9 +1,7 @@
 # CCU-Database
-Capturing carbon dioxide to mitigate climate change.
+Technology to capture carbon dioxide (CO2) is already a reality and CO2 can be captured from various sources. 
 
-Technology to capture CO2 is already a reality and CO2 can be captured from various sources. 
-
-The main questions are the price of the capturing and what to do with the captured CO2.
+The main questions though are the price of the capturing and what to do with the captured CO2.
  
 For example capturing all the CO2 emissions that a coal plant is producing would consume almost a third of all the energy that the plant is producing.
 
@@ -17,7 +15,7 @@ CO2 Value Europes is hosting and updating a comprehensive CCU database as one of
 
 Link to the database: https://database.co2value.eu/
 
-Database has great functionalities to sort and find data about completed, ongoing and upcoming CCU projects. Still, for a person interested in getting a big picture overview and running different analyses it would be great to have a database also as a CSV file. 
+Database has great functionalities to sort and find data about completed, ongoing and upcoming CCU projects. Still, for a person interested in getting a big picture overview and running different analyses on CCU projects it would be great to have a database also as a CSV file. 
 
 For this purpose the CO2 Value Europes database was scraped and downloaded as a CSV file. 
 
@@ -25,9 +23,10 @@ From this repository you can find the full CSV file under the name ‘co2_value_
 
 Data was scraped on October 11. 2023. Updates to the database after this day are not included to the CSV file. 
 
-P.S To ensure that web scraping activities are legal and ethical, followed steps are recommended:
+P.S To ensure that web scraping activities are legal and ethical, followed steps are recommended to take:
 
 1. Check the Website's Terms of Service: Look for a "Terms of Service" or "Terms and Conditions" page on the website. Read through these terms to see if web scraping is explicitly prohibited or if there are any usage restrictions. Some websites may allow web scraping for personal use but prohibit automated or large-scale scraping.
+   
 In the CO2 Value Europes webpage there was no mention about prohibiting web scraping.
 
 2. Check for a Robots.txt File: Many websites have a "robots.txt" file that specifies which parts of the site can or cannot be crawled by web crawlers or scrapers. You can check if the website has a robots.txt file by visiting the webpage and adding /robots.txt to the end of the website's URL. Review the rules in the robots.txt file to see if scraping is allowed or restricted for specific pages or directories.
@@ -40,7 +39,7 @@ Disallow: /wp-content/uploads/wpforms/ # START YOAST BLOCK # -------------------
 URL_2: https://database.co2value.eu/robots.txt 
 Respond_2:
 
-# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file # # To ban all spiders from the entire site uncomment the next two lines: # User-agent: * # Disallow: /
+*# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file # # To ban all spiders from the entire site uncomment the next two lines: # User-agent: * # Disallow: /*
 
 Results:
 
